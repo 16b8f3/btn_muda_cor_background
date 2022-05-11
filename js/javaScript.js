@@ -1,1 +1,4 @@
-alert('Oi meu chapa');
+document.querySelector('.ball').addEventListener('click', (e)=>{
+    e.target.classList.toggle('ball-move');
+    document.body.classList.toggle('dark');
+});
